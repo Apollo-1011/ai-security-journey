@@ -1,0 +1,13 @@
+# 1. Secrets et configurations
+.env
+*.pem
+*.key
+
+# 2. Python
+__pycache__/
+venv/
+.venv/
+
+# 3. IA & Data
+*.gguf
+*.bin
