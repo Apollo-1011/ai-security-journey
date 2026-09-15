@@ -11,3 +11,7 @@ venv/
 # 3. IA & Data
 *.gguf
 *.bin
+
+# Fichiers générés par les tests
+test.wav
+test.txt
