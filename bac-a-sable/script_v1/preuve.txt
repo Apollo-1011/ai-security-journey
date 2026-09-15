@@ -1,1 +1,3 @@
  Ceci est juste un test micro du premier script.
+ Ceci est le deuxième test avec le script modifier.
+ Ceci est un deuxième test du script à m'y leurer.
