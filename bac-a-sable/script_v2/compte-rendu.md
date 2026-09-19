@@ -5,3 +5,7 @@ Il faut encore que je vérifie plusieurs éléments.
 # Ceci est un test numéro 2
 
 Il faut encore que j'aille leur communiquer certaines choses, notamment la gestion des erreurs. Pour cela, je fais juste un test supplémentaire avant de faire la fin de script.
+# Ceci est un troisième test
+## Vérification de l'erreur
+
+Je viens d'ajouter la vérification d'erreur pour savoir si le passage et le guide sur le guide sont bien faits. C'est donc juste un test.
