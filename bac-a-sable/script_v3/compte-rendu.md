@@ -49,3 +49,12 @@ Quand il y a des dysfonctionnements, ils semblent venir de la manière dont je d
 **Problèmes à résoudre pour la suite**
 
 *   Le problème d'empilement du Markdown.
+# Test du modèle Whispers Medium
+
+Ceci est un nouveau test avec le modèle Whispers Medium. Le but est de déterminer si le Medium hallucine. Le modèle Large a eu quelques problèmes d'hallucination. Pour cela, je vais faire des tests avec le Medium pour déterminer si je dois garder le modèle Medium ou le modèle Large pour Whispers.
+
+## Étapes du test
+
+1.  Lancement des tests avec le modèle Whispers Medium.
+2.  Analyse des résultats pour déterminer si le Medium hallucine.
+3.  Comparaison des résultats avec le modèle Large pour déterminer lequel est le plus adapté pour Whispers.
