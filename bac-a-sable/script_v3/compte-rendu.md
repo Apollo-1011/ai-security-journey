@@ -36,3 +36,16 @@ et vérifier que les titres sont générés à l'aide des bons caractères Markd
 et comprendre si le problème de formatage du Markdown vient de mon audio, mon enregistrement, du modèle Ollama ou alors de mon prompt.
 
 Merci d'avoir regardé cette vidéo !
+Cinquième test du script numéro 3.
+J'ai pu donc constater que le Markdown fonctionne.
+Quand il y a des dysfonctionnements, ils semblent venir de la manière dont je dicte le message.
+
+**Étapes à suivre**
+
+1.  M'assurer une dernière fois que les titres fonctionnent bien.
+2.  Valider définitivement le modèle large pour Whisper.
+3.  Résoudre le problème de la suite en utilisant le code de la suite.
+
+**Problèmes à résoudre pour la suite**
+
+*   Le problème d'empilement du Markdown.
