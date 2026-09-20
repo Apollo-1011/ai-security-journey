@@ -28,3 +28,11 @@ Je dois aussi améliorer le système de maniement de l'enregistrement audio pour
 Je dois aussi améliorer le système de capture d'erreurs de messages.
 
 D'autres améliorations diverses sont nécessaires pour améliorer la qualité de vie et permettre une première version finale que je pourrais utiliser.
+# Enregistrement pour le quatrième essai
+Je fais donc ce quatrième enregistrement car j'ai remarqué plusieurs erreurs avec le Markdown.
+Cet enregistrement a donc pour unique but de vérifier que l'identification des titres fonctionne,
+vérifier que l'identification des listes fonctionne
+et vérifier que les titres sont générés à l'aide des bons caractères Markdown
+et comprendre si le problème de formatage du Markdown vient de mon audio, mon enregistrement, du modèle Ollama ou alors de mon prompt.
+
+Merci d'avoir regardé cette vidéo !
