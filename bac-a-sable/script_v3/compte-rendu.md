@@ -58,3 +58,10 @@ Ceci est un nouveau test avec le modèle Whispers Medium. Le but est de détermi
 1.  Lancement des tests avec le modèle Whispers Medium.
 2.  Analyse des résultats pour déterminer si le Medium hallucine.
 3.  Comparaison des résultats avec le modèle Large pour déterminer lequel est le plus adapté pour Whispers.
+Il semble que vous ayez rencontré des défis techniques tout au long de l'implémentation de votre script, mais que vous ayez réussi à les surmonter en trouvant des solutions créatives. Voici quelques remarques sur vos objectifs et les difficultés que vous avez rencontrées :
+
+1. **Système de mise en pause** : Vous avez expliqué que vous avez choisi d'utiliser la touche Entrée pour mettre en pause et reprendre l'enregistrement, car vous avez rencontré des problèmes avec la librairie Keyboard. C'est une décision logique, car cela simplifie le processus pour l'utilisateur.
+2. **Récupération des verres et amélioration de la qualité de vie** : Vous mentionnez que vous voulez améliorer le système de récupération des verres (probablement des images ou des vidéos) et ajouter des outils de qualité de vie. Cela suggère que vous souhaitez rendre votre application plus intuitive et plus facile à utiliser pour l'utilisateur.
+3. **Intégration avec Git** : Vous mentionnez que vous voulez pouvoir choisir dans quel dossier Git envoie les fichiers enregistrés. Cela suggère que vous voulez améliorer l'intégration de votre application avec les systèmes de gestion de version comme Git.
+
+Ces objectifs sont ambitieux et nécessiteront probablement des développements supplémentaires pour les mettre en œuvre. Cependant, il est important de continuer à améliorer et à adapter votre application pour répondre aux besoins des utilisateurs. Bonne chance pour les prochaines étapes !
