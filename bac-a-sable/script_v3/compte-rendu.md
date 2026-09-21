@@ -65,3 +65,10 @@ Il semble que vous ayez rencontré des défis techniques tout au long de l'impl�
 3. **Intégration avec Git** : Vous mentionnez que vous voulez pouvoir choisir dans quel dossier Git envoie les fichiers enregistrés. Cela suggère que vous voulez améliorer l'intégration de votre application avec les systèmes de gestion de version comme Git.
 
 Ces objectifs sont ambitieux et nécessiteront probablement des développements supplémentaires pour les mettre en œuvre. Cependant, il est important de continuer à améliorer et à adapter votre application pour répondre aux besoins des utilisateurs. Bonne chance pour les prochaines étapes !
+# Test ultime du script numéro 3
+
+Ceci est le test ultime du script numéro 3. Durant le dernier push du fichier Markdown, j'ai pu observer que le reformatage par Olamas avait eu un problème, le problème étant que Olamas a commencé à me répondre comme si je lui posais des questions alors que je lui avais donné comme prompt système justement le fait de seulement faire un reformatage en Markdown.
+
+Pour cela, pour que ce problème n'arrive plus, j'ai mis en place des sécurité supplémentaires à savoir la renforcement du prompt système en ajoutant des nouvelles interdictions donc l'interdiction qu'il me donne son avis, l'interdiction de faire quelconque commentaire sur le texte que je lui donne et l'interdiction de revoyer quoi que ce soit en dehors du texte Markdown.
+
+Mais il s'est avéré que s'il avait commencé à me répondre, c'était de ma faute puisque j'avais oublié de mettre le prompt dans le script. Ceci est donc un test pour s'assurer que tout est à nouveau en ordre.
