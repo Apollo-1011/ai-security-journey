@@ -62,3 +62,45 @@ Tout d'abord, la règle "toute chose en son temps". C'est-à-dire que la mise en
 *   Le système de pause reprise qui est imparfait et basique.
 *   Le choix des modèles d'IA, qui pour l'instant sont LAMA et Whisper Medium, mais qui pourraient évoluer dans le futur.
 *   La gestion des erreurs, qui n'est actuellement réalisée que pour la première partie du script, et qui devrait être améliorée pour prendre en compte les problèmes de micro, de Whisper, de OlaMa ou du Git.
+# Bilan du premier script d'automatisation de mise en ligne sur mon GitHub de fichiers Markdown
+
+## Pourquoi j'ai construit ce script
+
+Je voulais créer un script pour faciliter la création de fichiers Markdown pour mon portfolio. Puisque j'allais avoir besoin de faire plusieurs comptes rendus à Markdown, j'ai décidé d'automatiser le processus de création de ces fichiers.
+
+## La pipeline du script
+
+La pipeline du script consiste à :
+
+1. Enregistrer en train de parler à l'aide d'un micro et d'un script Python.
+2. Utiliser la bibliothèque Sound Devices pour récupérer l'audio.
+3. Utiliser Whispers en local pour faire une transcription de l'audio.
+4. Envoyer la transcription au modèle Lama 3.1 qui est également en local pour corriger les fautes d'orthographe, ajouter de la ponctuation et reformater en Markdown.
+5. Envoyer le fichier Markdown sur mon dépôt GitHub.
+
+## Choix techniques
+
+Voici les choix techniques que j'ai faits pour ce script :
+
+* J'ai choisi Python 3.14 comme interpréteur Python, car il était à la fois récent et stable.
+* J'ai choisi le modèle Medium de Whispers, car il était très utilisé et avait une grande communauté pour résoudre les problèmes.
+* J'ai choisi le modèle Lama 3.1 en 8 milliards de paramètres, car il était très utilisé et performant.
+* J'ai mis en place une connexion avec GitHub à l'aide d'une clé SSH pour faciliter l'utilisation et l'upload des fichiers.
+
+## Difficultés rencontrées
+
+Voici les difficultés que j'ai rencontrées et les corrections que j'ai apportées :
+
+* Hallucinations de Whisper : J'ai baissé la qualité du modèle Whisper pour réduire les hallucinations.
+* Compréhension de Lama : J'ai mis en place un prompt système très strict pour aider Lama à comprendre son objectif.
+* Pause de l'enregistrement : J'ai mis en place un système pour ne pas fermer le stream de Sound Devices, mais simplement de ne plus l'enregistrer pendant la pause.
+
+## Limites actuelles
+
+Voici les limites actuelles du script :
+
+* Capture des erreurs : J'ai une capture des erreurs pour la première partie du script, mais pas pour la partie transcription avec Whisper, l'AMA et le push sur GitHub.
+* Whisper : Il est difficile pour l'instant de pouvoir utiliser des termes anglais ou des termes techniques car Whisper ne les reconnaît pas tous.
+* Prompt système de LAMA : Il faudra améliorer le prompt système de LAMA pour qu'il prenne en compte les règles de prompt données.
+* Gestion de l'enregistrement : Le script est rudimentaire sur la gestion de l'enregistrement, notamment avec les touches. Il faudra améliorer cela pour pouvoir utiliser et gérer plus facilement la manière dont on enregistre l'audio.
+* Vérification et retouches de compte rendu : Il n'y a pas de moyen actuellement de vérifier et de faire des retouches de compte rendu avant qu'il soit envoyé sur mon GitHub.
